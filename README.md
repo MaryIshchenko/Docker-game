@@ -40,10 +40,6 @@ WORKDIR /app
 # Copy the local app package and package-lock.json file to the container
 COPY package*.json ./
 
-# Copy local directories to the working directory of our docker image (/app)
-COPY ./src ./src
-COPY ./public ./public
-
 # Install node packages, install serve, build the app, and remove dependencies at the end
 RUN npm install \
     && npm install -g serve \
