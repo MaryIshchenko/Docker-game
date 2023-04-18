@@ -58,7 +58,7 @@ CMD [ "serve", "-s", "build" ]
 ```
 Step #4: Build Docker Image
 ```bash 
-docker build -t Docker-game .
+docker build -t docker-game .
 ```
 Step #5: Run container with port number 8089
 
