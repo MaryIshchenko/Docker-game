@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author maryishchenko
- *
- */
-module simpleTesting {
-}
