@@ -34,6 +34,10 @@ WORKDIR /app
 
 COPY src ./src
 
+RUN javac classMain.java
+
+CMD ["java", "classMain"]
+
 ```
 Step #4: Build Docker Image
 ```bash 
