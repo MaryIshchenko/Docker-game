@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author maryishchenko
+ *
+ */
+module simpleTesting {
+}
