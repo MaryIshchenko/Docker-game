@@ -15,10 +15,12 @@ git clone https://github.com/MaryIshchenko/docker-game
 Step #2: Create Dockerfile and open it to edit 
 
 ```bash 
-cd /path/to/Docker-game
-
+cd /path/to/docker-game
+```
+``` bash
 touch Dockerfile
-
+```
+```bash
 vim Dockerfile
 ```
 Step #3: Add instructions to your Dockerfile - basic instructions taken from [Docker Guide](https://docs.docker.com/get-started/run-your-own-container/?uuid=35125792-A2C8-4F82-972B-45DC61E614F9)
