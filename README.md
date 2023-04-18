@@ -2,10 +2,13 @@
 This project is based on a guessing game written in Java 
 The purpose is to create a docker image and container of this game 
 
+
 ## PREREQUISITES: 
 Need to have [Docker Desktop](https://www.docker.com/products/docker-desktop/) downloaded 
 
 Install vim 
+
+Install temurin for javac command 
 
 ## INSTRUCTIONS FOR SET UP 
 Step #1: Clone repo
@@ -43,11 +46,7 @@ Step #4: Build Docker Image
 ```bash 
 docker build -t docker-game .
 ```
-Step #5: Run container with port number 8089
-
-Step #6: Verify on  http://localhost:8089
-
-Step #7: Stop container on Docker Descktop 
+Step #5: Stop container on Docker Desktop 
 
 Notice: these instructions are based on a Mac system 
 
