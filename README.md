@@ -10,7 +10,7 @@ Install vim
 ## INSTRUCTIONS FOR SET UP 
 Step #1: Clone repo
 ```bash 
-git clone https://github.com/MaryIshchenko/docker-game
+git clone https://github.com/MaryIshchenko/docker-game.git
 ```
 Step #2: Create Dockerfile and open it to edit 
 
