@@ -32,7 +32,7 @@ FROM eclipse-temurin:17-jdk-jammy
 
 WORKDIR /app
 
-COPY src ./src
+COPY ./src/simpleTestingMain
 
 RUN javac classMain.java
 
