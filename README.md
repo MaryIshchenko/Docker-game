@@ -28,15 +28,15 @@ Step #3: Add instructions to your Dockerfile - basic instructions taken from [Do
 ```
 # syntax=docker/dockerfile:1
 
-FROM eclipse-temurin:17-jdk-jammy
+FROM openjdk:8
 
 WORKDIR /app
 
-COPY ./src/simpleTestingMain
+COPY . /app/
 
-RUN javac classMain.java
+RUN javac Main.java
 
-CMD ["java", "classMain"]
+CMD ["java", "Main"]
 
 ```
 Step #4: Build Docker Image
